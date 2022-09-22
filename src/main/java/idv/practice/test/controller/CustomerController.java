@@ -11,7 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 import idv.practice.test.modelbean.CustomerReqModelBean;
 import idv.practice.test.modelbean.CustomerRespModelBean;
 import idv.practice.test.service.CustomerService;
+import io.swagger.annotations.Api;
 
+@Api(tags = "Todo list 相關api")
 @RestController
 @RequestMapping("/customer")
 public class CustomerController {
